@@ -1,12 +1,10 @@
-import { css } from "../styled-system/css";
 import { center } from "../styled-system/patterns";
+import { ReactTick } from "./components/ReactTick";
 
 function App() {
   return (
-    <div className={center({ height: "100vh" })}>
-      <h1 className={css({ fontSize: "5xl", color: "rose.400" })}>
-        Hello World!
-      </h1>
+    <div className={center({ height: "100vh", fontSize: "4xl" })}>
+      <ReactTick />
     </div>
   );
 }
